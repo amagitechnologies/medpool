@@ -22,7 +22,7 @@
     <meta property="og:title" content="Hospital Clinical Operations | Medpool">
     <meta property="og:description" content="Elite clinical and administrative bandwidth for US hospitals. Recover revenue, secure vital talent, and accelerate health-tech infrastructure.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.medpool.com/hospital-services.html">
+    <meta property="og:url" content="https://www.medpool.com/hospital-clinical-operations.html">
 
     <!-- GEO-Optimized JSON-LD Schema -->
     <script type="application/ld+json">
@@ -35,17 +35,10 @@
           "position": 1,
           "item": {
             "@type": "Service",
-            "name": "Specialized Claims & Denials Management",
+            "name": "Revenue Cycle Management & Denials",
             "description": "Retrospective audits and precision encounter profiling data submission by medical coders to accelerate hospital revenue recovery.",
-            "provider": {
-              "@type": "Organization",
-              "name": "Medpool"
-            },
-            "areaServed": [
-              {"@type": "State", "name": "Texas"},
-              {"@type": "State", "name": "Florida"},
-              {"@type": "Country", "name": "United States"}
-            ]
+            "provider": { "@type": "Organization", "name": "Medpool" },
+            "areaServed": [{"@type": "State", "name": "Texas"}, {"@type": "State", "name": "Florida"}, {"@type": "Country", "name": "United States"}]
           }
         },
         {
@@ -55,15 +48,8 @@
             "@type": "Service",
             "name": "Clinical Documentation Improvement (CDI)",
             "description": "Concurrent chart audits and physician query management by specialized RNs to optimize Case Mix Index (CMI) and protect Medicare reimbursement.",
-            "provider": {
-              "@type": "Organization",
-              "name": "Medpool"
-            },
-            "areaServed": [
-              {"@type": "State", "name": "Texas"},
-              {"@type": "State", "name": "Florida"},
-              {"@type": "Country", "name": "United States"}
-            ]
+            "provider": { "@type": "Organization", "name": "Medpool" },
+            "areaServed": [{"@type": "State", "name": "Texas"}, {"@type": "State", "name": "Florida"}, {"@type": "Country", "name": "United States"}]
           }
         },
         {
@@ -71,17 +57,10 @@
           "position": 3,
           "item": {
             "@type": "Service",
-            "name": "Strategic Clinical Sourcing",
-            "description": "Targeted vetting and acquisition of specialized nursing and allied health talent to alleviate staffing shortages and reduce hospital travel agency dependency.",
-            "provider": {
-              "@type": "Organization",
-              "name": "Medpool"
-            },
-            "areaServed": [
-              {"@type": "State", "name": "Texas"},
-              {"@type": "State", "name": "Florida"},
-              {"@type": "Country", "name": "United States"}
-            ]
+            "name": "Remote Clinical Services",
+            "description": "Remote Patient Monitoring (RPM) and Tele-Nursing to provide 24/7 care and reduce 30-day hospital readmissions.",
+            "provider": { "@type": "Organization", "name": "Medpool" },
+            "areaServed": [{"@type": "State", "name": "Texas"}, {"@type": "State", "name": "Florida"}, {"@type": "Country", "name": "United States"}]
           }
         },
         {
@@ -91,15 +70,8 @@
             "@type": "Service",
             "name": "Human-in-the-Loop (HITL) AI Training",
             "description": "Medical data annotation, EHR structuring, and Reinforcement Learning from Human Feedback (RLHF) executed by nursing informatics specialists for predictive health models.",
-            "provider": {
-              "@type": "Organization",
-              "name": "Medpool"
-            },
-            "areaServed": [
-              {"@type": "State", "name": "Texas"},
-              {"@type": "State", "name": "Florida"},
-              {"@type": "Country", "name": "United States"}
-            ]
+            "provider": { "@type": "Organization", "name": "Medpool" },
+            "areaServed": [{"@type": "State", "name": "Texas"}, {"@type": "State", "name": "Florida"}, {"@type": "Country", "name": "United States"}]
           }
         }
       ]
@@ -162,33 +134,31 @@
 </head>
 <body class="overflow-x-hidden bg-[#fafafa]">
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4WJP9F6"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
+    <!-- Navigation -->
     <nav class="glass-nav fixed top-0 w-full z-50 font-sans">
         <div class="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between relative">
             <a href="index.html" class="flex items-center gap-2">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-                <span class="font-display font-bold text-lg tracking-widest uppercase text-black">MEDPOOL</span>
+                <span class="font-display font-bold text-xl tracking-widest uppercase text-black">MEDPOOL</span>
             </a>
             
             <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center gap-8 text-[11px] font-bold opacity-80 uppercase tracking-[0.15em]">
                 <a href="index.html" class="hover:text-black transition-colors">Home</a>
                 <a href="about.html" class="hover:text-black transition-colors">About</a>
                 
+                <!-- Services Dropdown -->
                 <div class="relative group h-14 flex items-center cursor-pointer">
-                    <span class="hover:text-black transition-colors flex items-center gap-1">
+                    <span class="text-black transition-colors flex items-center gap-1 border-b border-black pb-0.5">
                         Services 
                         <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
                     </span>
+                    <!-- Dropdown Menu -->
                     <div class="absolute top-14 left-1/2 -translate-x-1/2 w-64 bg-white border border-gray-100 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-2 flex flex-col">
                         <a href="legal-services.html" class="px-6 py-4 hover:bg-gray-50 border-b border-gray-50 text-gray-800 transition-colors">
                             <span class="block text-[10px] text-gray-400 mb-1">Litigation Support</span>
                             Law Firms & Legal
                         </a>
-                        <a href="hospital-services.html" class="px-6 py-4 hover:bg-gray-50 text-gray-800 transition-colors">
+                        <a href="hospital-services.html" class="px-6 py-4 hover:bg-gray-50 text-gray-800 transition-colors font-bold bg-gray-50">
                             <span class="block text-[10px] text-gray-400 mb-1">Clinical Operations</span>
                             Hospitals & Health Systems
                         </a>
@@ -196,133 +166,281 @@
                 </div>
             </div>
 
-            <a href="https://medpool.io/about#contact"><button class="bg-black text-white px-6 py-2.5 text-xs tracking-widest uppercase font-bold pill-button">
+            <button class="bg-black text-white px-6 py-2.5 text-xs tracking-widest uppercase font-bold pill-button">
                 Request a Consultation
-            </button></a>
+            </button>
         </div>
     </nav>
 
-    <section class="pt-48 pb-24">
+    <!-- Services Hero -->
+    <section class="pt-48 pb-16">
         <div class="max-w-5xl mx-auto px-6 text-center fade-in">
             <p class="text-[11px] font-sans font-bold text-gray-400 uppercase tracking-[0.2em] mb-6">Hospital & Health Systems</p>
             <h1 class="text-5xl md:text-6xl font-display font-medium tracking-tight mb-6">Clinical Operations</h1>
             <p class="max-w-2xl mx-auto text-xl text-gray-600 font-sans leading-relaxed">
-                We provide healthcare facilities with specialized administrative and clinical bandwidth, recovering lost revenue, securing vital talent, and accelerating health-tech infrastructure.
+                Bridging the gap between clinical reality and billing requirements, extending clinical reach, and structuring data for the next generation of healthcare technology.
             </p>
         </div>
     </section>
 
+    <!-- Detailed Services List -->
     <section class="py-12 max-w-5xl mx-auto px-6">
         <div class="border-t border-black">
             
+            <!-- Category I: Revenue Cycle Management -->
             <div class="py-16 border-b border-gray-200 grid md:grid-cols-12 gap-8 md:gap-16 fade-in group">
                 <div class="md:col-span-5">
-                    <h3 class="text-3xl font-display font-medium text-black mb-4">Specialized Claims & Denials</h3>
-                    <p class="text-[11px] font-sans font-bold text-gray-400 uppercase tracking-[0.2em]">Executed by Revenue Cycle Specialists</p>
+                    <h3 class="text-3xl font-display font-medium text-black mb-4">Revenue Cycle Management</h3>
+                    <p class="text-[11px] font-sans font-bold text-gray-400 uppercase tracking-[0.2em]">Denials, Coding & Auth</p>
                 </div>
-                <div class="md:col-span-7">
-                    <p class="text-gray-600 text-lg leading-relaxed mb-8">
-                        Navigating complex claim denials requires surgical precision, not broad resubmissions. For highly specialized encounters, our coding and billing experts understand that only specific profiling data is required for compliance and reimbursement. We perform retrospective audits on denied claims to ensure the exact, mandatory encounter profiling data is isolated and submitted, efficiently accelerating revenue recovery without unnecessary administrative bloat.
-                    </p>
-                    <ul class="space-y-4 font-sans text-sm font-medium text-gray-800">
-                        <li class="flex items-center gap-4">
-                            <span class="w-1.5 h-1.5 rounded-full bg-black block"></span> Retrospective Denial Audits
-                        </li>
-                        <li class="flex items-center gap-4">
-                            <span class="w-1.5 h-1.5 rounded-full bg-black block"></span> Precision Encounter Profiling Data Submission
-                        </li>
-                        <li class="flex items-center gap-4">
-                            <span class="w-1.5 h-1.5 rounded-full bg-black block"></span> Complex Coding Resolution
-                        </li>
-                    </ul>
+                <div class="md:col-span-7 space-y-12">
+                    
+                    <div>
+                        <h4 class="text-xl font-display font-medium text-black mb-2">Denial Management & Appeals</h4>
+                        <p class="text-gray-600 text-base leading-relaxed mb-4">
+                            Reviewing insurance denials, cross-referencing medical records, and drafting evidence-based clinical appeals.
+                        </p>
+                        <ul class="space-y-3 font-sans text-sm text-gray-600">
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-300 block shrink-0"></span>
+                                <span><strong class="text-gray-900">The Challenge:</strong> Massive backlog of denied claims sitting in the CFO's office. US clinical staff are too busy with patients to write appeals.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-black block shrink-0"></span>
+                                <span><strong class="text-gray-900">Medpool Value:</strong> High-volume, highly accurate revenue recovery utilizing top-tier Philippine clinical talent, managed under strict US architecture.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="text-xl font-display font-medium text-black mb-2">Medical Coding & Billing Support</h4>
+                        <p class="text-gray-600 text-base leading-relaxed mb-4">
+                            Translating complex clinical events into accurate ICD-10/CPT codes and accelerating the billing cycle.
+                        </p>
+                        <ul class="space-y-3 font-sans text-sm text-gray-600">
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-300 block shrink-0"></span>
+                                <span><strong class="text-gray-900">The Challenge:</strong> High turnover in billing departments and slow Days Sales Outstanding (DSO) due to internal coding bottlenecks.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-black block shrink-0"></span>
+                                <span><strong class="text-gray-900">Medpool Value:</strong> Scalable, on-demand workforce deployment. We provide a fully managed, quality-controlled operational workflow.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="text-xl font-display font-medium text-black mb-2">Prior Authorization Specialists</h4>
+                        <p class="text-gray-600 text-base leading-relaxed mb-4">
+                            Navigating complex payer portals to secure prior authorizations for procedures, medications, and imaging.
+                        </p>
+                        <ul class="space-y-3 font-sans text-sm text-gray-600">
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-300 block shrink-0"></span>
+                                <span><strong class="text-gray-900">The Challenge:</strong> Care delays and physician frustration due to Byzantine insurance approval processes consuming hours of clinical time.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-black block shrink-0"></span>
+                                <span><strong class="text-gray-900">Medpool Value:</strong> Accelerated patient care and reduced administrative burden, handled by specialists who deeply understand US payer logic.</span>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
 
+            <!-- Category II: Front-Office -->
             <div class="py-16 border-b border-gray-200 grid md:grid-cols-12 gap-8 md:gap-16 fade-in group">
                 <div class="md:col-span-5">
-                    <h3 class="text-3xl font-display font-medium text-black mb-4">Clinical Documentation Improvement</h3>
-                    <p class="text-[11px] font-sans font-bold text-gray-400 uppercase tracking-[0.2em]">Executed by Specialized RNs (CCDS)</p>
+                    <h3 class="text-3xl font-display font-medium text-black mb-4">Front-Office & Patient Support</h3>
+                    <p class="text-[11px] font-sans font-bold text-gray-400 uppercase tracking-[0.2em]">Patient Administration</p>
                 </div>
-                <div class="md:col-span-7">
-                    <p class="text-gray-600 text-lg leading-relaxed mb-8">
-                        The financial health of your facility hinges on the accuracy of the physician's narrative. Our dedicated Clinical Documentation Improvement professionals perform concurrent, real-time chart audits. We bridge the gap between clinical reality and billing requirements, ensuring physicians accurately capture severity of illness and risk of mortality to protect your Medicare reimbursement rates.
-                    </p>
-                    <ul class="space-y-4 font-sans text-sm font-medium text-gray-800">
-                        <li class="flex items-center gap-4">
-                            <span class="w-1.5 h-1.5 rounded-full bg-black block"></span> Concurrent Chart Auditing
-                        </li>
-                        <li class="flex items-center gap-4">
-                            <span class="w-1.5 h-1.5 rounded-full bg-black block"></span> Physician Query Management
-                        </li>
-                        <li class="flex items-center gap-4">
-                            <span class="w-1.5 h-1.5 rounded-full bg-black block"></span> CMI (Case Mix Index) Optimization
-                        </li>
-                    </ul>
+                <div class="md:col-span-7 space-y-12">
+                    
+                    <div>
+                        <h4 class="text-xl font-display font-medium text-black mb-2">Virtual Medical Assistants (VMA)</h4>
+                        <p class="text-gray-600 text-base leading-relaxed mb-4">
+                            Dedicated remote staff managing patient scheduling, inbound inquiries, insurance verification, and administration.
+                        </p>
+                        <ul class="space-y-3 font-sans text-sm text-gray-600">
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-300 block shrink-0"></span>
+                                <span><strong class="text-gray-900">The Challenge:</strong> Front desk staff burnout, long patient hold times, and high administrative overhead leading to missed appointments.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-black block shrink-0"></span>
+                                <span><strong class="text-gray-900">Medpool Value:</strong> Cost-effective, highly fluent patient support that allows your on-site staff to focus entirely on in-person care.</span>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
 
+            <!-- Category III: Clinical Documentation -->
             <div class="py-16 border-b border-gray-200 grid md:grid-cols-12 gap-8 md:gap-16 fade-in group">
                 <div class="md:col-span-5">
-                    <h3 class="text-3xl font-display font-medium text-black mb-4">Strategic Clinical Sourcing</h3>
-                    <p class="text-[11px] font-sans font-bold text-gray-400 uppercase tracking-[0.2em]">Executed by Healthcare Business Development</p>
+                    <h3 class="text-3xl font-display font-medium text-black mb-4">Clinical Documentation</h3>
+                    <p class="text-[11px] font-sans font-bold text-gray-400 uppercase tracking-[0.2em]">EHR Audits & Charting</p>
                 </div>
-                <div class="md:col-span-7">
-                    <p class="text-gray-600 text-lg leading-relaxed mb-8">
-                        Alleviate critical staffing shortages and reduce your reliance on exorbitant travel agency contracts. We deploy targeted sourcing strategies to vet and acquire specialized nursing and allied health talent. Backed by deep strategic partnerships and experience driving acquisitions alongside hospital ownership, our sourcing operations match top-tier clinical professionals to your facility's specific cultural and operational demands.
-                    </p>
-                    <ul class="space-y-4 font-sans text-sm font-medium text-gray-800">
-                        <li class="flex items-center gap-4">
-                            <span class="w-1.5 h-1.5 rounded-full bg-black block"></span> Targeted Talent Acquisition
-                        </li>
-                        <li class="flex items-center gap-4">
-                            <span class="w-1.5 h-1.5 rounded-full bg-black block"></span> Specialized Nursing & Allied Health Vetting
-                        </li>
-                        <li class="flex items-center gap-4">
-                            <span class="w-1.5 h-1.5 rounded-full bg-black block"></span> Travel Agency Dependency Reduction
-                        </li>
-                    </ul>
+                <div class="md:col-span-7 space-y-12">
+                    
+                    <div>
+                        <h4 class="text-xl font-display font-medium text-black mb-2">Clinical Documentation Improvement (CDI)</h4>
+                        <p class="text-gray-600 text-base leading-relaxed mb-4">
+                            Retrospective audits of physician notes, ensuring charting accurately reflects patient acuity before it hits coding.
+                        </p>
+                        <ul class="space-y-3 font-sans text-sm text-gray-600">
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-300 block shrink-0"></span>
+                                <span><strong class="text-gray-900">The Challenge:</strong> Doctors under-document due to EHR fatigue, resulting in under-billing and lost revenue for complex cases.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-black block shrink-0"></span>
+                                <span><strong class="text-gray-900">Medpool Value:</strong> We provide a "precision layer" of elite nurses who catch clinical nuances coders miss, without burdening US physicians.</span>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
 
+            <!-- Category IV: Remote Clinical Services -->
             <div class="py-16 border-b border-gray-200 grid md:grid-cols-12 gap-8 md:gap-16 fade-in group">
                 <div class="md:col-span-5">
-                    <h3 class="text-3xl font-display font-medium text-black mb-4">Human-in-the-Loop AI Training</h3>
-                    <p class="text-[11px] font-sans font-bold text-gray-400 uppercase tracking-[0.2em]">Executed by Nursing Informatics</p>
+                    <h3 class="text-3xl font-display font-medium text-black mb-4">Remote Clinical Services</h3>
+                    <p class="text-[11px] font-sans font-bold text-gray-400 uppercase tracking-[0.2em]">Monitoring & Triage</p>
                 </div>
-                <div class="md:col-span-7">
-                    <p class="text-gray-600 text-lg leading-relaxed mb-8">
-                        As health systems deploy internal predictive models and LLMs, uncompromising clinical ground truth is required. We provide nursing informatics specialists to structure raw EHR inputs and perform critical medical data annotation. Through Reinforcement Learning from Human Feedback (RLHF), we ensure your algorithms reason with the nuance, safety, and precision of a seasoned clinical practitioner.
-                    </p>
-                    <ul class="space-y-4 font-sans text-sm font-medium text-gray-800">
-                        <li class="flex items-center gap-4">
-                            <span class="w-1.5 h-1.5 rounded-full bg-black block"></span> Medical Data Annotation & EHR Structuring
-                        </li>
-                        <li class="flex items-center gap-4">
-                            <span class="w-1.5 h-1.5 rounded-full bg-black block"></span> Reinforcement Learning from Human Feedback (RLHF)
-                        </li>
-                        <li class="flex items-center gap-4">
-                            <span class="w-1.5 h-1.5 rounded-full bg-black block"></span> Algorithmic Bias & Clinical Safety Audits
-                        </li>
-                    </ul>
+                <div class="md:col-span-7 space-y-12">
+                    
+                    <div>
+                        <h4 class="text-xl font-display font-medium text-black mb-2">Remote Triage & Tele-Nursing</h4>
+                        <p class="text-gray-600 text-base leading-relaxed mb-4">
+                            Veteran RNs providing remote patient triage, post-discharge follow-ups, and telehealth support via secure links.
+                        </p>
+                        <ul class="space-y-3 font-sans text-sm text-gray-600">
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-300 block shrink-0"></span>
+                                <span><strong class="text-gray-900">The Challenge:</strong> High 30-day readmission rates and expensive local nursing staff stretched too thin to perform routine follow-ups.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-black block shrink-0"></span>
+                                <span><strong class="text-gray-900">Medpool Value:</strong> Seamless clinical extension for 24/7 coverage, drastically reducing readmissions through compassionate, continuous monitoring.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="text-xl font-display font-medium text-black mb-2">Remote Patient Monitoring (RPM)</h4>
+                        <p class="text-gray-600 text-base leading-relaxed mb-4">
+                            Continuous tracking of patient vitals and health data via remote devices, escalating critical alerts to US providers.
+                        </p>
+                        <ul class="space-y-3 font-sans text-sm text-gray-600">
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-300 block shrink-0"></span>
+                                <span><strong class="text-gray-900">The Challenge:</strong> Lack of clinical bandwidth to monitor chronic patients between visits, missing early warning signs of health deterioration.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-black block shrink-0"></span>
+                                <span><strong class="text-gray-900">Medpool Value:</strong> Proactive clinical intervention and activation of new RPM reimbursement codes powered by an observant remote clinical team.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Category V: Strategic Talent Operations -->
+            <div class="py-16 border-b border-gray-200 grid md:grid-cols-12 gap-8 md:gap-16 fade-in group">
+                <div class="md:col-span-5">
+                    <h3 class="text-3xl font-display font-medium text-black mb-4">Strategic Talent Operations</h3>
+                    <p class="text-[11px] font-sans font-bold text-gray-400 uppercase tracking-[0.2em]">Managed Sourcing</p>
+                </div>
+                <div class="md:col-span-7 space-y-12">
+                    
+                    <div>
+                        <h4 class="text-xl font-display font-medium text-black mb-2">Managed Clinical Sourcing</h4>
+                        <p class="text-gray-600 text-base leading-relaxed mb-4">
+                            Direct sourcing and credentialing of specialized nurses, techs, and allied health professionals for internal operations.
+                        </p>
+                        <ul class="space-y-3 font-sans text-sm text-gray-600">
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-300 block shrink-0"></span>
+                                <span><strong class="text-gray-900">The Challenge:</strong> Exorbitant fees from traditional staffing agencies and inconsistent quality of international hires.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-black block shrink-0"></span>
+                                <span><strong class="text-gray-900">Medpool Value:</strong> Unrivaled access to the largest network of vetted Philippine clinical talent, curated by experts in international infrastructure.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Category VI: Clinical AI & Data Infrastructure -->
+            <div class="py-16 border-b border-gray-200 grid md:grid-cols-12 gap-8 md:gap-16 fade-in group">
+                <div class="md:col-span-5">
+                    <h3 class="text-3xl font-display font-medium text-black mb-4">Clinical AI & Data Infrastructure</h3>
+                    <p class="text-[11px] font-sans font-bold text-gray-400 uppercase tracking-[0.2em]">Annotation & RLHF</p>
+                </div>
+                <div class="md:col-span-7 space-y-12">
+                    
+                    <div>
+                        <h4 class="text-xl font-display font-medium text-black mb-2">Medical Data Annotation</h4>
+                        <p class="text-gray-600 text-base leading-relaxed mb-4">
+                            Structuring and annotating raw, fragmented EHR inputs to create clean training datasets for health-tech models.
+                        </p>
+                        <ul class="space-y-3 font-sans text-sm text-gray-600">
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-300 block shrink-0"></span>
+                                <span><strong class="text-gray-900">The Challenge:</strong> Internal predictive models and LLMs failing due to unstructured, misunderstood, or poorly categorized clinical data.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-black block shrink-0"></span>
+                                <span><strong class="text-gray-900">Medpool Value:</strong> Elite nursing informatics specialists process data with the clinical intuition software engineers lack.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="text-xl font-display font-medium text-black mb-2">RLHF Execution</h4>
+                        <p class="text-gray-600 text-base leading-relaxed mb-4">
+                            Reinforcement Learning from Human Feedback (RLHF) to tune model responses for clinical safety and accuracy.
+                        </p>
+                        <ul class="space-y-3 font-sans text-sm text-gray-600">
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-300 block shrink-0"></span>
+                                <span><strong class="text-gray-900">The Challenge:</strong> AI algorithms producing clinically unsafe, hallucinatory, or illogical outputs during pilot deployments.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="mt-1.5 w-1.5 h-1.5 rounded-full bg-black block shrink-0"></span>
+                                <span><strong class="text-gray-900">Medpool Value:</strong> Human-in-the-loop oversight ensuring models reason with the nuance, safety, and precision of a seasoned US clinician.</span>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
             
         </div>
     </section>
 
+    <!-- Final CTA -->
     <section class="bg-black text-white py-32 px-6 text-center mt-12">
         <div class="max-w-4xl mx-auto fade-in">
             <h2 class="text-5xl md:text-6xl font-display font-medium tracking-tighter mb-10">
                 Optimize your clinical operations.
             </h2>
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center font-sans">
-                <button class="bg-white text-black px-8 py-4 text-sm tracking-widest uppercase font-bold pill-button w-full sm:w-auto">
+                <a href="about.html#my-form" class="bg-white text-black px-8 py-4 text-sm tracking-widest uppercase font-bold pill-button w-full sm:w-auto inline-block">
                     Contact Our Operations Team
-                </button>
+                </a>
             </div>
         </div>
     </section>
 
+    <!-- Simple Footer -->
     <footer class="py-12 px-6 font-sans bg-[#fafafa]">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 border-t border-gray-200 pt-12">
             <div class="text-[11px] font-bold text-gray-400 uppercase tracking-widest">© 2024 MEDPOOL. ESTABLISHED IN EXCELLENCE.</div>
