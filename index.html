@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medpool | Elite Legal Nurse Consulting & Medical Record Review</title>
-    <meta name="description" content="Medpool provides elite clinical consulting, medical record review, and physician expert matchmaking for high-stakes litigation in TX, FL, HI, and nationwide.">
-    <link rel="canonical" href="https://www.medpool.io/">
+    <!-- SEO / GEO Title & Meta Description -->
+    <title>Medpool | Medical-Legal Consulting & Clinical Operations</title>
+    <meta name="description" content="Medpool provides elite clinical consulting, medical record review, hospital revenue integrity (CDI), and HITL AI training in TX, FL, and nationwide.">
+    <link rel="canonical" href="https://www.medpool.com/">
+    
+    <!-- Open Graph for Social/Link Sharing -->
+    <meta property="og:title" content="Medpool | Medical-Legal & Clinical Operations">
+    <meta property="og:description" content="Accelerate your strategy with elite clinical consulting. Comprehensive medical document reviews for law firms and operational bandwidth for health systems.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.medpool.com/">
+
+    <!-- GEO-Optimized JSON-LD Schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LegalService",
+      "@type": "ProfessionalService",
       "name": "Medpool",
-      "url": "https://www.medpool.io",
-      "logo": "https://www.medpool.com/io.png",
-      "description": "Elite medical-legal consulting, legal nurse chronologies, and physician expert review for high-stakes litigation.",
+      "url": "https://www.medpool.com",
+      "logo": "https://www.medpool.com/logo.png",
+      "description": "Elite medical-legal consulting, hospital revenue integrity, clinical documentation improvement (CDI), and HITL AI training for law firms and health systems.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Dallas",
@@ -21,18 +30,19 @@
         "addressCountry": "US"
       },
       "areaServed": [
-        {
-          "@type": "State",
-          "name": "Texas"
-        },
-        {
-          "@type": "State",
-          "name": "Florida"
-        },
-        {
-          "@type": "State",
-          "name": "Hawaii"
-        }
+        {"@type": "State", "name": "Texas"},
+        {"@type": "State", "name": "Florida"},
+        {"@type": "Country", "name": "United States"}
+      ],
+      "knowsAbout": [
+        "Medical Malpractice Litigation Support",
+        "Clinical Documentation Improvement (CDI)",
+        "Hospital Revenue Integrity",
+        "Human-in-the-Loop (HITL) AI Training",
+        "Complex Claims Denials"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/company/medpool"
       ]
     }
     </script>
@@ -117,18 +127,33 @@
 </head>
 <body class="overflow-x-hidden">
 
-    <!-- Navigation -->
     <nav class="glass-nav fixed top-0 w-full z-50 font-sans">
         <div class="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between relative">
-            <a href="https://medpool.io" class="flex items-center gap-2">
+            <a href="index.html" class="flex items-center gap-2">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-                <span class="font-bold text-lg tracking-tight text-black">MEDPOOL</span>
+                <span class="font-display font-bold text-lg tracking-widest uppercase text-black">MEDPOOL</span>
             </a>
             
             <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center gap-8 text-[11px] font-bold opacity-80 uppercase tracking-[0.15em]">
-                <a href="https://medpool.io" class="hover:text-black transition-colors">Home</a>
-                <a href="https://medpool.io/about.html" class="hover:text-black transition-colors">About</a>
-                <a href="https://medpool.io/services.html" class="hover:text-black transition-colors">Services</a>
+                <a href="index.html" class="hover:text-black transition-colors">Home</a>
+                <a href="about.html" class="hover:text-black transition-colors">About</a>
+                
+                <div class="relative group h-14 flex items-center cursor-pointer">
+                    <span class="hover:text-black transition-colors flex items-center gap-1">
+                        Services 
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </span>
+                    <div class="absolute top-14 left-1/2 -translate-x-1/2 w-64 bg-white border border-gray-100 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-2 flex flex-col">
+                        <a href="legal-services.html" class="px-6 py-4 hover:bg-gray-50 border-b border-gray-50 text-gray-800 transition-colors">
+                            <span class="block text-[10px] text-gray-400 mb-1">Litigation Support</span>
+                            Law Firms & Legal
+                        </a>
+                        <a href="hospital-services.html" class="px-6 py-4 hover:bg-gray-50 text-gray-800 transition-colors">
+                            <span class="block text-[10px] text-gray-400 mb-1">Clinical Operations</span>
+                            Hospitals & Health Systems
+                        </a>
+                    </div>
+                </div>
             </div>
 
             <a href="https://medpool.io/about#contact"><button class="bg-black text-white px-6 py-2.5 text-xs tracking-widest uppercase font-bold pill-button">
@@ -196,63 +221,66 @@
     <section id="expertise" class="py-32 max-w-5xl mx-auto px-6">
         <div class="mb-16 fade-in text-center">
             <h2 class="text-4xl md:text-5xl font-display font-medium tracking-tight mb-4">Areas of Expertise</h2>
-            <p class="text-gray-600 text-lg font-sans">Specialized clinical insight across high-stakes litigation categories.</p>
+            <p class="text-gray-600 text-lg font-sans">Specialized clinical insight across high-stakes litigation and healthcare operations.</p>
         </div>
 
         <div class="border-t border-black font-sans">
-            <!-- Malpractice -->
+            <!-- Litigation Support -->
             <div class="py-10 border-b border-gray-200 flex flex-col md:flex-row gap-4 md:gap-16 fade-in group cursor-pointer hover:bg-gray-50 transition-colors -mx-6 px-6">
                 <div class="md:w-1/3">
-                    <h3 class="text-2xl font-display font-medium text-black group-hover:text-gray-500 transition-colors">Medical Malpractice</h3>
+                    <h3 class="text-2xl font-display font-medium text-black group-hover:text-gray-500 transition-colors">Complex Litigation</h3>
                 </div>
                 <div class="md:w-2/3">
-                    <p class="text-gray-600 text-base leading-relaxed mb-5">Comprehensive analysis of standard of care deviations, surgical complications, misdiagnoses, and birth trauma events.</p>
+                    <p class="text-gray-600 text-base leading-relaxed mb-5">Comprehensive medical record analysis, timeline construction, and expert physician matchmaking for malpractice, mass torts, and catastrophic injury.</p>
                     <div class="flex flex-wrap gap-2">
-                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Surgical Errors</span>
-                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Birth Injury</span>
-                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Misdiagnosis</span>
+                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Medical Malpractice</span>
+                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Mass Torts & MDL</span>
+                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Personal Injury</span>
                     </div>
                 </div>
             </div>
             
-            <!-- Mass Torts -->
+            <!-- Revenue Integrity -->
             <div class="py-10 border-b border-gray-200 flex flex-col md:flex-row gap-4 md:gap-16 fade-in group cursor-pointer hover:bg-gray-50 transition-colors -mx-6 px-6">
                 <div class="md:w-1/3">
-                    <h3 class="text-2xl font-display font-medium text-black group-hover:text-gray-500 transition-colors">Mass Torts & MDL</h3>
+                    <h3 class="text-2xl font-display font-medium text-black group-hover:text-gray-500 transition-colors">Revenue Integrity</h3>
                 </div>
                 <div class="md:w-2/3">
-                    <p class="text-gray-600 text-base leading-relaxed mb-5">Scalable medical record review and plaintiff fact sheet (PFS) completion for pharmaceutical liability and defective medical devices.</p>
+                    <p class="text-gray-600 text-base leading-relaxed mb-5">Retrospective audits and precise encounter profiling data submission to navigate complex claim denials and accelerate hospital revenue recovery.</p>
                     <div class="flex flex-wrap gap-2">
-                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Pharmaceuticals</span>
-                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Medical Devices</span>
+                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Claims Denials</span>
+                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Encounter Profiling</span>
+                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Coding Resolution</span>
                     </div>
                 </div>
             </div>
 
-            <!-- Personal Injury -->
+            <!-- Clinical Documentation -->
             <div class="py-10 border-b border-gray-200 flex flex-col md:flex-row gap-4 md:gap-16 fade-in group cursor-pointer hover:bg-gray-50 transition-colors -mx-6 px-6">
                 <div class="md:w-1/3">
-                    <h3 class="text-2xl font-display font-medium text-black group-hover:text-gray-500 transition-colors">Personal Injury</h3>
+                    <h3 class="text-2xl font-display font-medium text-black group-hover:text-gray-500 transition-colors">Clinical Documentation</h3>
                 </div>
                 <div class="md:w-2/3">
-                    <p class="text-gray-600 text-base leading-relaxed mb-5">Clear translation of catastrophic injuries, translating complex trauma timelines and future care requirements into compelling narratives.</p>
+                    <p class="text-gray-600 text-base leading-relaxed mb-5">Concurrent, real-time chart auditing to bridge the gap between clinical reality and billing requirements, protecting Medicare reimbursement rates.</p>
                     <div class="flex flex-wrap gap-2">
-                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">TBI</span>
-                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Catastrophic Trauma</span>
+                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">CDI</span>
+                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Case Mix Index</span>
+                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Physician Queries</span>
                     </div>
                 </div>
             </div>
             
-            <!-- Long-Term Care -->
+            <!-- AI Informatics -->
             <div class="py-10 border-b border-gray-200 flex flex-col md:flex-row gap-4 md:gap-16 fade-in group cursor-pointer hover:bg-gray-50 transition-colors -mx-6 px-6">
                 <div class="md:w-1/3">
-                    <h3 class="text-2xl font-display font-medium text-black group-hover:text-gray-500 transition-colors">Long-Term Care</h3>
+                    <h3 class="text-2xl font-display font-medium text-black group-hover:text-gray-500 transition-colors">Clinical AI & Informatics</h3>
                 </div>
                 <div class="md:w-2/3">
-                    <p class="text-gray-600 text-base leading-relaxed mb-5">Meticulous audits of facility flowsheets, MDS assessments, and staffing records to identify negligence and regulatory violations.</p>
+                    <p class="text-gray-600 text-base leading-relaxed mb-5">Structuring raw EHR inputs and providing uncompromising clinical ground truth via Reinforcement Learning from Human Feedback (RLHF) for medical AI models.</p>
                     <div class="flex flex-wrap gap-2">
-                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Elder Abuse</span>
-                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Regulatory Compliance</span>
+                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">HITL AI Training</span>
+                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Data Annotation</span>
+                        <span class="text-[10px] uppercase tracking-widest font-bold bg-gray-100 px-3 py-1.5 text-gray-600">Algorithmic Safety</span>
                     </div>
                 </div>
             </div>
@@ -263,9 +291,9 @@
     <section class="py-32 bg-white overflow-hidden">
         <div class="max-w-5xl mx-auto px-6 text-center fade-in">
             <blockquote class="text-3xl md:text-5xl font-display font-medium leading-[1.2] tracking-tight text-gray-900 mb-12">
-                "Their discernment of medical records is unparalleled. They provide the cornerstone for our most complex litigation."
+                "Their discernment of medical records is unparalleled. They provide the cornerstone for our most complex litigation and operations."
             </blockquote>
-            <cite class="not-italic text-sm font-sans font-bold uppercase tracking-[0.25em] text-gray-400">— Senior Partner, National Tort Firm</cite>
+            <cite class="not-italic text-sm font-sans font-bold uppercase tracking-[0.25em] text-gray-400">— Senior Partner & CMO Feedback</cite>
         </div>
     </section>
 
